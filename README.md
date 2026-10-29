@@ -3,6 +3,8 @@
 A Laravel broadcast driver for [Pikoman](https://pikoman.se). Your events, `routes/channels.php`
 and Laravel Echo code stay as they are with Pusher; the browser uses `@pikoman/compat` in place of
 pusher-js. Laravel 11, 12 and 13, PHP 8.2 or later with the curl, openssl and sodium extensions.
+It is built on [`pikoman/compat-php`](https://packagist.org/packages/pikoman/compat-php), which
+Composer installs with it, and which is also for PHP without Laravel.
 
 ## Install
 

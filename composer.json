@@ -3,19 +3,25 @@
     "description": "A Laravel broadcast driver for Pikoman: Laravel Echo with @pikoman/compat, signed with Ed25519 keys.",
     "license": "MIT",
     "type": "library",
-    "keywords": ["laravel", "broadcasting", "pusher", "websockets", "realtime", "laravel-echo", "pikoman"],
+    "keywords": [
+        "laravel",
+        "broadcasting",
+        "pusher",
+        "websockets",
+        "realtime",
+        "laravel-echo",
+        "pikoman"
+    ],
     "homepage": "https://pikoman.se/switch-from-pusher/",
     "support": {
         "email": "hello@pikoman.se",
         "issues": "https://github.com/pikomanse/compat-laravel/issues",
         "source": "https://github.com/pikomanse/compat-laravel"
     },
-    "version": "0.1.0",
+    "version": "0.2.0",
     "require": {
         "php": "^8.2",
-        "ext-curl": "*",
-        "ext-openssl": "*",
-        "ext-sodium": "*",
+        "pikoman/compat-php": "^0.1",
         "illuminate/broadcasting": "^11.0 || ^12.0 || ^13.0",
         "illuminate/support": "^11.0 || ^12.0 || ^13.0",
         "symfony/http-kernel": "^7.0 || ^8.0"
